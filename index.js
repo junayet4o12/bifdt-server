@@ -290,7 +290,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-  res.send('server is okh');
+  res.send('server is okay');
 })
 
 app.listen(port, () => {
